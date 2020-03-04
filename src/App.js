@@ -25,7 +25,7 @@ const App = () => {
 
   const removeFeature = item => {
     // dispatch an action here to remove an item
-  };
+  }; 
 
   const buyItem = item => {
     // dipsatch an action here to add an item
@@ -34,12 +34,12 @@ const App = () => {
   return (
     <div className="boxes">
       <div className="box">
-        <Header car={state.car} />
-        <AddedFeatures car={state.car} />
+        <Header/>
+        <AddedFeatures/>
       </div>
       <div className="box">
-        <AdditionalFeatures additionalFeatures={state.additionalFeatures} />
-        <Total car={state.car} additionalPrice={state.additionalPrice} />
+        <AdditionalFeatures/>
+        <Total/>
       </div>
     </div>
   );
